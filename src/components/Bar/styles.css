@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Hairline&display=swap');
+
+.bar-container {
+  
+  background: #F1D850;
+  color: #333;
+  width: 100%;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-info {
+  height: 25px;
+  border-radius: 15px 15px 0 0;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: flex-end;
+  background: #daca70;
+  color: #333;
+  font-size: 18px;
+  /* font-weight: 100; */
+  /* text-shadow: 0px 1px #333; */
+  /* filter: brightness(70%); */
+}
+
+.user-info p {
+  margin-right: 150px;
+}
+
+.user-info .avatar {
+  color: #333;
+  margin-right: 20px;
+  display: flex;
+  font-weight: normal;
+  text-decoration: none;
+  align-items: center;
+  align-content: center;
+  /* align-self: flex-end; */
+  /* justify-content: flex-end; */
+}
+
+.user-info .avatar span {
+  
+}
+
+.sinalizer {
+  height: 25px;
+  border-radius: 0 0 15px 15px;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  background: #e02041;
+  color: #fff;
+  text-shadow: 1px 1px #558ABB;
+}
+
+
+
+
+.airport-info {
+  max-width: 75%;
+  margin: 0 10px;
+  display: flex;
+  align-content: center;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.airport-info .form-item {
+  margin: 0 10px;
+}
+
+.airport-info .form-item-button {
+  margin: 0 10px;
+  border-radius: 25px;
+}
+
+.airport-info input {
+  width: 100%;
+  background: #daca70;
+  filter: brightness(90%);
+  color: #333;
+  line-height: 35px;
+  
+  border: #dcdce6;
+  border-radius: 8px;
+  padding: 0 5px;
+}
+
+.airport-info input#island {
+  filter: brightness(70%);
+}
+
+.airport-info input#price {
+  max-width: 80px;
+}
+
+
+.airport-info img {
+  max-height: 45px;
+  max-width: 45px;
+}
+
+.airport-info label {
+  
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.airport-info p {
+  font-family: 'Bungee Hairline';
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.airport-info button {
+  width: 100%;
+  width: 100px;
+  /* height: 45px; */
+  background: #18A7E0;
+  border: 0;
+  border-radius: 15px;
+  font-family: 'Bungee Hairline';
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 60px;
+  cursor: pointer;
+  transition: filter 0.2s;
+}
+
+
+.airport-info button:hover {
+  filter: brightness(90%);
+}

@@ -27,9 +27,9 @@ export default function Dashboard() {
             <li key={island._id} >
               {/* <header style={{ backgroundImage: `url(${island.fruit_url})` }}> */}
               <strong>Island</strong>
-              <p>{island.islandName}</p>
+              <p>{island.island}</p>
               <strong>Owner</strong>
-              <p>{island.ownerName}</p>
+              <p>{island.owner}</p>
               <strong>Hemisphere</strong>
               <p>{island.hemisphere}</p>
               <strong>Turnip Price</strong>

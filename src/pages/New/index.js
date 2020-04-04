@@ -40,8 +40,8 @@ export default function New({ history }) {
 
 
     await api.post('/islands', {
-        "ownerName": owner,
-        "islandName": island,
+        owner,
+        island,
         fruit,
         hemisphere,
         turnipPrice,
